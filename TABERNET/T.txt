@@ -1,0 +1,3 @@
+file:///C:/Users/Etzato/OneDrive/Documentos/visual%20studio/TABERNET
+10.211.249.146:8000
+img src="logo.SVG" alt="logo de la pagina" width="500"
