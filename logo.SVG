@@ -1,0 +1,22 @@
+<svg width="1279"
+ height="272"
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  overflow="hidden"><defs><clipPath 
+  id="clip0"><rect x="0" y="0"
+   width="1279" 
+   height="272"/></clipPath></defs>
+   <g clip-path="url(#clip0)">
+   <path d="M0-162.758 314.366-162.758 314.366 37.9436 1.01574e-05 37.9436Z" 
+   fill="#000080" fill-rule="evenodd" 
+   transform="matrix(1.00149 0 0 1 209.528 208.206)"/>
+   <text fill="#ffffff" 
+   font-family="Arial Black,Arial Black_MSFontService,sans-serif"
+    font-weight="900" font-size="142"
+     transform="matrix(1 0 0 0.998516 209.528 208)">TAB<tspan 
+     fill="#000080" font-size="142" x="314.915" 
+     y="0">ER</tspan><tspan fill="#000000" 
+     font-size="142" x="528.638" y="0">.</tspan><tspan 
+     fill="#0D0D0D" font-size="142" x="576.15" y="0">NET</tspan>
+     </text><path d="M119.487 0 59.7434 0 0 98.853 59.7434 197.706 119.487 197.706 59.7434 98.853ZM1065.58 0 1005.84 0 1065.58 98.853 1005.84 197.706 1065.58 197.706 1125.33 98.853Z" 
+     fill="#0D0D0D" fill-rule="evenodd" transform="matrix(-1.00149 0 0 1 1203 47.9288)"/></g></svg>
