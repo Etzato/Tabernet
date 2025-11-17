@@ -1,0 +1,275 @@
+/* ====== ESTILOS OPTIMIZADOS Y RESPONSIVOS ====== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #d7d7d7;
+    color: #333;
+}
+
+/* ====== LAYOUT PRINCIPAL ====== */
+.layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {
+    flex: 1;
+    background: #bcc6e7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* BARRA LATERAL */
+.barra-lateral {
+    width: 300px;
+    background: #b0a2ff;
+    padding: 15px;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+/* Artículos */
+article {
+    background: #cfdae7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== TIPOGRAFÍA ====== */
+h2 {
+    font-size: 1.6rem;
+    border-bottom: 2px solid #1d0358;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+
+/* BOTONES DE REDES */
+a.facebook-button, a.x-button, a.Insta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.facebook-button { background: #1877f2; }
+.facebook-button:hover { background: #0d3fa3; }
+
+.x-button { background: #2e3236; }
+.x-button:hover { background: #000; }
+
+.Insta-button { background: #f2189e; }
+.Insta-button:hover { background: #91087e; }
+
+/* ====== LOGO ====== */
+.logocontainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logocontainer img {
+    max-width: 90%;
+    height: auto;
+    transition: 0.4s;
+}
+
+.logocontainer img:hover {
+    transform: scale(1.05);
+}
+
+/* ====== RESPONSIVIDAD ====== */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .barra-lateral {
+        width: 100%;
+    }
+}
+
+/* ===== TARJETAS DINÁMICAS ===== */
+.entradas {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.contenido {
+  padding: 1rem;
+  flex: 1;
+}
+
+.contenido h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.contenido h3 a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.contenido h3 a:hover {
+  color: #0066cc;
+}
+
+.extracto {
+  margin: 0 0 0.5rem;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* ===== botones de etiquetas estilizadas ===== */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tags a {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #1e1e1e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    border: 1px solid transparent;
+}
+
+/* Hover */
+.tags a:hover {
+    background: #ffffff;
+    color: #1e1e1e;
+    border-color: #1e1e1e;
+    transform: translateY(-2px);
+}
+
+
+/* Celulares */
+@media (max-width: 600px) {
+    .contenido-principal,
+    .barra-lateral {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    /* Botones mantienen su tamaño y NO se expanden al 100% */
+    .xd,
+    .page1,
+    .page2,
+    .page3 {
+        padding: 20px 30px;
+        display: inline-block;
+    }
+
+    a.facebook-button, a.x-button, a.Insta-button {
+        text-align: center;
+        padding: 14px;
+        display: inline-block;
+    }
+}
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .xd,
+    .page1,
+    .page2,
+    .page3 {
+        width: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    a.facebook-button, a.x-button, a.Insta-button {
+        text-align: center;
+        padding: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+  .card img {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+/* botones de enlaces estilizados Para pantallas pequeñas */
+@media (max-width: 480px) {
+    .tags {
+        gap: 8px;
+    }
+    
+    .tags a {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+}
